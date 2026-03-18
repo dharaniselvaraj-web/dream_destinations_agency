@@ -1,0 +1,137 @@
+.hero-banner {
+    background: url('path/to/your/keyboard-image.jpg') no-repeat center center/cover;
+    height: 200px;
+    width: 100%;
+    left: 50%;
+}
+
+.contact-section {
+    padding: 50px 10px;
+}
+/* Center the contact form + map section */
+.contact-section .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;                 /* Centers entire section */
+    display: flex;
+    justify-content: center;        /* Centers left+right horizontally */
+    align-items: flex-start;
+    gap: 50px;                      /* Space between left & right */
+    padding: 40px 20px;
+}
+
+/* Left & Right column width */
+.contact-form-container,
+.contact-details-container {
+    flex: 1;
+    min-width: 350px;
+}
+
+
+.contact-form-container h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-form-container p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form select,
+.contact-form textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-send-enquiry {
+    background-color: darkturquoise;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px; 
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.btn-send-enquiry:hover {
+    background-color: white;
+    color:darkturquoise;
+    border: 1px solid darkturquoise;
+}
+
+.contact-details-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    padding-top: 50px; 
+}
+
+.map-placeholder {
+    height: 250px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.map-text {
+    color: #000000;
+}
+
+.address-block {
+    margin-bottom: 20px;
+}
+
+.address-block h4 {
+    color: darkturquoise;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.address-block p, .address-block address {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+}
+
+.address-block a {
+    color: darkturquoise;
+}
+
+.social-links p {
+    display: inline-block;
+    width: 180px; 
+    margin-right: 15px;
+    color: #6d5d5d;
+}
+.social-links p:hover{
+    color: darkturquoise;
+}
